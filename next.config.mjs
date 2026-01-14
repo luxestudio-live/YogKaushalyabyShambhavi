@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const isGithubPages = process.env.GITHUB_PAGES === 'true';
-const repoName = 'yogis-yoga'; // Change if your repo name is different
+const repoName = 'YogKaushalyabyShambhavi';
 
 const nextConfig = {
   typescript: {
@@ -11,7 +10,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  // assetPrefix and basePath removed for custom domain root deployment
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
   trailingSlash: true,
 }
 

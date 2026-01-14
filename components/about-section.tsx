@@ -46,8 +46,8 @@ export function AboutSection() {
           <motion.div style={{ y: imageY }} ref={imageRef} className="relative order-2 lg:order-1">
             <div className="relative aspect-4/5 overflow-hidden rounded-3xl">
               <img
-                src="/peaceful-woman-in-white-doing-yoga-meditation-pose.jpg"
-                alt="Sneha practicing yoga"
+                src="/YogKaushalyabyShambhavi/peaceful-woman-in-white-doing-yoga-meditation-pose.jpg"
+                alt="Sambhavi practicing yoga"
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-linear-to-t from-background/60 to-transparent" />

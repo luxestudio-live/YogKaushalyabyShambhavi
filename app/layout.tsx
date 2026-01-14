@@ -17,9 +17,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Sneha - Yoga & Wellness Educator",
+  title: "Sambhavi - Yoga & Wellness Educator",
   description:
-    "Transform your life through yoga, breathwork, and mindful wellness practices with certified educator Sneha. Online classes, weight loss programs, pranayama, and meditation.",
+    "Transform your life through yoga, breathwork, and mindful wellness practices with certified educator Sambhavi. Online classes, weight loss programs, pranayama, and meditation.",
   generator: "Luxestudio",
   keywords: ["yoga", "wellness", "meditation", "pranayama", "weight loss", "online yoga classes"],
 }
