@@ -9,9 +9,9 @@ export function Footer() {
   const isInView = useInView(footerRef, { once: false, amount: 0.5 })
 
   const socialLinks = [
-    { icon: Instagram, href: "https://instagram.com/Yogisyoga_india", label: "Instagram" },
-    { icon: Youtube, href: "https://www.youtube.com/yogisyoga", label: "YouTube" },
-    { icon: Facebook, href: "https://facebook.com/share/1CqDP8x4TG", label: "Facebook" },
+    { icon: Instagram, href: "https://instagram.com/yogkaushalya", label: "Instagram" },
+    { icon: Youtube, href: "https://www.youtube.com/@yogkaushalya", label: "YouTube" },
+    { icon: Facebook, href: "https://facebook.com/yogkaushalya", label: "Facebook" },
   ]
 
   return (
@@ -27,8 +27,8 @@ export function Footer() {
           className="flex flex-col items-center gap-8"
         >
           <div className="text-center">
-            <h3 className="mb-2 text-2xl font-light text-foreground">Sneha</h3>
-            <p className="text-sm text-muted-foreground">Yoga & Wellness Educator</p>
+            <h3 className="mb-2 text-2xl font-light text-foreground">Shambhavi</h3>
+            <p className="text-sm text-muted-foreground">Engineer Turned Yoga Teacher</p>
           </div>
 
           <div className="flex gap-6">
@@ -56,7 +56,7 @@ export function Footer() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-sm text-muted-foreground"
           >
-            © 2025 Sneha. All rights reserved.
+            © 2026 Yog Kaushalya by Shambhavi. All rights reserved.
           </motion.p>
           <motion.p
             initial={{ opacity: 0 }}

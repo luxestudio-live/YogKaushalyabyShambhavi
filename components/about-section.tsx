@@ -68,34 +68,29 @@ export function AboutSection() {
           <motion.div style={{ y: textY }} className="order-1 lg:order-2">
             <div className="mb-6">
               <span className="inline-block rounded-full bg-sage/10 px-4 py-1.5 text-xs font-light tracking-widest text-sage dark:bg-sage/20 dark:text-warm-white">
-                MEET SNEHA
+                MEET SHAMBHAVI
               </span>
             </div>
 
             <h2 className="mb-8 text-5xl font-light leading-tight tracking-tight text-foreground md:text-6xl lg:text-7xl text-balance">
-              Your Dedicated
+              Engineer Turned
               <br />
               <span className="bg-linear-to-r from-sage via-pink-300 to-sage bg-clip-text text-transparent dark:from-sage-light dark:via-warm-white dark:to-olive-dark">
-                Wellness Guide
+                Yoga Teacher
               </span>
             </h2>
 
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground md:text-xl text-pretty">
-                Sneha Gosai is a certified Yoga & Wellness Educator passionate about helping you transform your life
-                through ancient yogic wisdom adapted for modern living. With a thriving YouTube community of thousands,
-                she brings authentic, science-backed teachings to every session.
+                Shambhavi bridges the analytical mind of an engineer with the wisdom of ancient yoga philosophy. She simplifies complex yogic concepts, making them accessible and practical for modern life.
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground md:text-xl text-pretty">
-                Every class is designed with care to help you reconnect with your breath, your body, and your purpose.
-                Whether you're seeking weight loss, stress relief, or spiritual growth, you'll find a supportive space
-                to grow and evolve.
+                Every session focuses on breath, meditation, and real-life application of yoga. Whether you're seeking clarity, balance, or a deeper understanding of yourself, Shambhavi creates a space for authentic transformation.
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground md:text-xl text-pretty">
-                Join a thriving global community committed to wellness, awareness, and personal evolution. Be part of
-                millions who have discovered the transformative power of Yogi's Yoga.
+                Join a growing community of 605+ followers on Instagram who are discovering the power of simplified yoga philosophy. Experience breath-centered practice that goes beyond asanas to touch the essence of real life yog.
               </p>
             </div>
 

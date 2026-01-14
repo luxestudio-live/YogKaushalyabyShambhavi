@@ -6,43 +6,43 @@ import { ScrollReveal } from "./scroll-reveal"
 
 const offerings = [
   {
-    title: "Weight Loss & Detox Programs",
-    description: "Science-backed yoga flows combined with customized diet plans for sustainable weight management and body detoxification.",
+    title: "Breath & Pranayama",
+    description: "Learn the foundational practice of breath control. Discover how conscious breathing transforms your energy, focus, and emotional state in daily life.",
     gradient: "from-sage/10 to-pink-100/10",
     benefits: [
-      "Customized Diet Plan",
-      "Yoga Mudra Therapy",
-      "Sustainable Results",
+      "Breath Awareness",
+      "Energy Regulation",
+      "Stress Management",
     ],
   },
   {
-    title: "Stress Relief & Overthinking Control",
-    description: "Specialized techniques to manage stress, calm your mind, and break free from overthinking patterns through mindfulness and meditation.",
+    title: "Meditation & Mindfulness",
+    description: "Simplified meditation techniques that fit into your real life. Move beyond theory to experience the clarity and peace of a focused mind.",
     gradient: "from-pink-100/10 to-sage/10",
     benefits: [
       "Mental Clarity",
-      "Emotional Balance",
-      "Anxiety Management",
+      "Present Moment Awareness",
+      "Inner Peace",
     ],
   },
   {
-    title: "Pranayama & Breathwork",
-    description: "Master the art of breath control to increase energy, enhance mental focus, and achieve inner balance through ancient breathing techniques.",
+    title: "Yoga Philosophy Simplified",
+    description: "Ancient yogic wisdom made practical for modern living. Understand the 'why' behind yoga practices and apply timeless principles to everyday challenges.",
     gradient: "from-sage/10 to-pink-100/10",
     benefits: [
-      "Energy Boost",
-      "Better Focus",
-      "Respiratory Health",
+      "Practical Wisdom",
+      "Self-Understanding",
+      "Life Application",
     ],
   },
   {
-    title: "Live Classes & Workshops",
-    description: "Join interactive live sessions, guided challenges, and workshops. Morning and evening time slots available to fit your schedule.",
+    title: "Real Life Yog Practice",
+    description: "Integrate yoga beyond the mat into your daily routine. Classes focus on building sustainable habits that support your authentic journey.",
     gradient: "from-pink-100/10 to-sage/10",
     benefits: [
-      "Flexible Timings",
-      "Interactive Sessions",
-      "Guided Challenges",
+      "Daily Integration",
+      "Sustainable Practice",
+      "Authentic Living",
     ],
   },
 ]
@@ -57,13 +57,13 @@ export default function OfferingsSection() {
         <div className="mx-auto max-w-7xl">
           <motion.div style={{ y: headerY }} className="mb-20 text-center">
             <span className="mb-6 inline-block rounded-full bg-sage/10 px-4 py-1.5 text-xs font-light tracking-widest text-sage dark:bg-sage/20 dark:text-warm-white">
-              WHAT WE OFFER
+              OFFERINGS
             </span>
             <h2 className="mt-6 text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-              Transformative Programs
+              Real Life Yog
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Professional yoga classes designed with care to help you reconnect with your breath, body, and purpose
+              Breath-centered practices and meditation techniques that simplify yoga philosophy for your daily life
             </p>
           </motion.div>
 

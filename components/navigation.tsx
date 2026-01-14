@@ -46,8 +46,8 @@ export function Navigation() {
               className="flex items-center gap-2"
             >
               <div className="flex flex-col">
-                <span className="text-lg font-medium tracking-tight md:text-xl">Yogi's Yoga</span>
-                <span className="text-xs text-sage dark:text-sage-light md:text-sm">by Sneha</span>
+                <span className="text-lg font-medium tracking-tight md:text-xl">Yog Kaushalya</span>
+                <span className="text-xs text-sage dark:text-sage-light md:text-sm">by Shambhavi</span>
               </div>
             </motion.a>
 

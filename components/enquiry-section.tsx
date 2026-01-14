@@ -110,8 +110,7 @@ export function EnquirySection() {
                 <div>
                   <h3 className="mb-6 text-3xl font-light text-foreground">Contact Details</h3>
                   <p className="text-lg leading-relaxed text-muted-foreground">
-                    Ready to transform your life? Get in touch with Sneha and start your personalized wellness journey
-                    today.
+                    Ready to simplify yoga philosophy and embrace real-life yog? Connect with Shambhavi and begin your journey of breath, meditation, and mindful living.
                   </p>
                 </div>
 
@@ -123,7 +122,7 @@ export function EnquirySection() {
                     <div>
                       <div className="mb-1 text-sm font-light text-muted-foreground">Call or WhatsApp</div>
                       <div className="text-xl text-foreground">+91 9099888702</div>
-                      <div className="text-sm text-muted-foreground">Yogi's Yoga Studio</div>
+                      <div className="text-sm text-muted-foreground">Yog Kaushalya by Shambhavi</div>
                     </div>
                   </motion.a>
 
@@ -134,7 +133,7 @@ export function EnquirySection() {
                     <div>
                       <div className="mb-1 text-sm font-light text-muted-foreground">Location</div>
                       <div className="text-lg leading-relaxed text-foreground">
-                        Yogi's Yoga Studio,
+                        Yog Kaushalya Studio,
                         Near Parivar Mart,
                         <br />
                         Opposite Puls Hospital,
@@ -146,7 +145,7 @@ export function EnquirySection() {
                   </motion.div>
 
                   <motion.a
-                    href="https://www.youtube.com/@YogisYoga"
+                    href="https://www.instagram.com/yogkaushalya"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ x: 5 }}
@@ -156,9 +155,9 @@ export function EnquirySection() {
                       <Mail className="h-6 w-6 text-sage dark:text-sage-light" />
                     </div>
                     <div>
-                      <div className="mb-1 text-sm font-light text-muted-foreground">YouTube Channel</div>
-                      <div className="text-lg text-foreground">@YogisYoga</div>
-                      <div className="text-sm text-muted-foreground">4.5K+ Subscribers</div>
+                      <div className="mb-1 text-sm font-light text-muted-foreground">Instagram</div>
+                      <div className="text-lg text-foreground">@yogkaushalya</div>
+                      <div className="text-sm text-muted-foreground">605+ Followers | 153 Posts</div>
                     </div>
                   </motion.a>
                 </div>
@@ -187,8 +186,8 @@ export function EnquirySection() {
 
             <form onSubmit={handleSubmit} className="relative space-y-6">
               <div>
-                <h3 className="mb-2 text-3xl font-light text-foreground">Send a Message</h3>
-                <p className="text-muted-foreground">Fill out the form and we'll get back to you shortly</p>
+                <h3 className="mb-2 text-3xl font-light text-foreground">Begin Your Journey</h3>
+                <p className="text-muted-foreground">Share your interest and Shambhavi will guide you forward</p>
               </div>
 
               <div className="grid gap-6 md:grid-cols-2">

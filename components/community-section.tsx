@@ -6,9 +6,9 @@ import { Play, Users, Eye, Video } from "lucide-react"
 import { ScrollReveal } from "./scroll-reveal"
 
 const stats = [
-  { value: 4580, label: "YouTube Subscribers", suffix: "+", icon: Users },
-  { value: 780593, label: "Video Views", suffix: "+", icon: Eye },
-  { value: 673, label: "Videos Created", suffix: "+", icon: Video },
+  { value: 605, label: "Instagram Followers", suffix: "+", icon: Users },
+  { value: 153, label: "Posts Shared", suffix: "+", icon: Video },
+  { value: 146, label: "Following", suffix: "", icon: Eye },
 ]
 
 export function CommunitySection() {
@@ -43,13 +43,13 @@ export function CommunitySection() {
       <div className="mx-auto max-w-7xl">
         <div className="mb-20 text-center">
           <span className="mb-6 inline-block rounded-full bg-sage/10 px-4 py-1.5 text-xs font-light tracking-widest text-sage dark:bg-sage/20 dark:text-warm-white">
-            OUR COMMUNITY
+            COMMUNITY
           </span>
           <h2 className="mt-6 text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Join Our Global Family
+            Growing Together
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-            Be part of a thriving community committed to wellness, awareness, and personal evolution
+            Join a mindful community exploring breath, meditation, and real-life yoga philosophy together
           </p>
         </div>
 
@@ -57,13 +57,13 @@ export function CommunitySection() {
           <div className="relative aspect-video w-full">
             <img
               src="/group-yoga-class-students-practicing-together-peac.jpg"
-              alt="Yogi's Yoga community class"
+              alt="Yog Kaushalya community practice"
               className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-linear-to-br from-sage/30 via-transparent to-pink-300/30 dark:from-sage/20 dark:to-pink-900/20" />
             <div className="absolute inset-0 flex items-center justify-center">
               <motion.a
-                href="https://www.youtube.com/@YogisYoga"
+                href="https://www.instagram.com/yogkaushalya"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}

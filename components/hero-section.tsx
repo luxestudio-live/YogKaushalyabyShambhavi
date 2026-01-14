@@ -118,23 +118,22 @@ export function HeroSection() {
       >
         <div className="mb-6">
           <span className="inline-block rounded-full bg-sage/15 px-4 py-2 text-xs font-light tracking-widest text-sage dark:bg-sage/20 dark:text-sage-light md:px-6 md:py-2.5 md:text-sm">
-            YOGI'S YOGA BY SNEHA
+            YOG KAUSHALYA BY SHAMBHAVI
           </span>
         </div>
 
         <h1 className="mb-6 text-4xl font-light leading-[1.1] tracking-tight text-foreground sm:text-5xl md:mb-8 md:text-6xl lg:text-7xl">
-          Where Ancient
+          Yoga Philosophy
           <br />
           <span className="bg-gradient-to-r from-sage via-pink-300 to-sage bg-clip-text text-transparent dark:from-sage-light dark:via-warm-white dark:to-sage">
-            Wisdom Meets
+            Simplified
           </span>
           <br />
-          Modern Living
+          ✨
         </h1>
 
         <p className="mx-auto mb-10 max-w-2xl text-base font-light leading-relaxed text-muted-foreground sm:text-lg md:mb-12 md:text-xl">
-          Transform your life with holistic yoga practices. Led by Sneha, discover your sanctuary for health, mental
-          clarity, and spiritual growth.
+          Breath, Meditation & Real Life Yog. Led by Shambhavi, an engineer turned yoga teacher, experience authentic yogic wisdom for modern life.
         </p>
 
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -154,7 +153,7 @@ export function HeroSection() {
             href="#contact"
             className="rounded-full border-2 border-foreground/20 px-8 py-3.5 text-sm font-light tracking-wide text-foreground backdrop-blur-sm transition-all hover:border-foreground/40 hover:bg-foreground/5 md:px-10 md:py-4 md:text-base"
           >
-            Contact Sneha
+            Connect with Shambhavi
           </a>
         </div>
       </motion.div>
